@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>GROUP 1 GRID</title>
+</head>
+
+<body>
+    <div class="container">
+
+    <h3>A row with a single line of 12 1-width columns</h3>
+    <div class="row">
+        <div class="col s1 cyan">1</div>
+        <div class="col s1 red">2</div>
+        <div class="col s1 cyan">3</div>
+        <div class="col s1 red">4</div>
+        <div class="col s1 cyan">5</div>
+        <div class="col s1 red">6</div>
+        <div class="col s1 cyan">7</div>
+        <div class="col s1 red">8</div>
+        <div class="col s1 cyan">9</div>
+        <div class="col s1 red">10</div>
+        <div class="col s1 cyan">11</div>
+        <div class="col s1 red">12</div>
+    </div>
+
+    <h3>A row with two lines: a line with a single 12-width column and a line with 2 6-width columns</h3>
+    <div class="row">
+        <div class="col s12 purple">This div is 12-width column on all screen sizes</div>
+        <div class="col s6 red">6-width column</div>
+        <div class="col s6 green">6-width column</div>
+    </div>
+
+    <h3>A row with two lines: a line with a single 12-width column and a line with various width columns</h3>
+    <div class="row">
+        <div class="col s12 yellow">This div is 12-columns wide on all screen sizes</div>
+        <div class="col s1 green">1-col</div>
+        <div class="col s2 orange">2-col</div>
+        <div class="col s3 red">3-col</div>
+        <div class="col s6 purple">6-col</div>
+    </div>
+
+    <div class="row">
+        <div class="col s12 green"><span class="flow-text">This div is 12-width column</span></div>
+
+        <div class="col s6 offset-s6 yellow"><span class="flow-text">6-width column (offset-by-6)</span></div>
+
+        <div class="col s6 offset-s3 red"><span class="flow-text">6-width column (offset-by-3)</span></div>
+        <div class="col s3 yellow"><span class="flow-text">
+    <!-- has to be filled with something to take up the rest of the line --></span></div>
+
+        <div class="col s2 green"><span class="flow-text">2-width col</span></div>
+        <div class="col s10 red"><span class="flow-text">This div is 10-width column</span></div>
+    </div>
+
+    </div>
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
