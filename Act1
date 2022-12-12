@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name=" viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <title>Tesda BSRS</title>
+</head>
+<body class="sky blue accent-4 black-text text-darken-3">
+
+    <div class="container">
+        <h1 class="red-text text-darken-1, center-align">GOOD MORNING EVERYONE</h1>
+        <!-- Headers -->
+        <h1>Smile</h1>
+        <h2>Be Happy</h2>
+        <h3>Enjoy</h3>
+        <h4>Laugh</h4>
+        <h5>Love</h5>
+        <h6>Friends</h6>
+        <h7>Be Yourself</h7>
+
+        <!-- blockquote -->
+        <blockquote> 
+            This is an example for blockquote tag. mwa 
+        </blockquote>
+
+        <!-- Paragraph -->
+        <p>typography, the design, or selection, of letter forms to be organized into words and sentences to be disposed in blocks of type as printing upon a page. Typography and the typographer who practices it may also be concerned with other, related matters—the selection of paper, the choice of ink, the method of printing, the design of the binding if the product at hand is a book—but the word typography without modifier most usually denotes the activities and concerns of those most involved in and concerned with the determination of the appearance of the printed page.</p>
+
+        <p class="flow-text">To put it simply, typography is the appearance of text. It’s one of the most important features of every composition, both in the digital and physical worlds. The type choice can make or break every design. It helps to set the mood and emotion of any text and has a huge impact on how the reader perceives it. </p>
+
+        <!-- Color -->
+        <div class="card-panel blue accent-2">
+            <p class="black-text text-lighten-2">This is the card panel no.1</p>
+        </div>
+        <div class="card-panel red accent-2">
+            <p class="black-text text-darken-2">This is the card panel no.2</p>
+        </div>
+    </div>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
+
+
+        <!-- Buttons -->
+        <h4 class="blue-text text-lighten-2">Buttons</h4>
+        <!-- Raised -->
+        <a class="btn waves-effect waves-light">CLICK THIS BUTTON</a>
+        <!-- With Icons -->
+        <a class="btn waves-effect waves-white blue black-text">SAVE</a>
+            <i class=",aterial-icons left">save</i>
+        </a>
+        <a class="btn waves-effect green waves-light">MUSIC</a>
+            <i class="material-icons right">Library_music</i>
+        </a>
+        <br>
+        <br>
+
+        <!-- Floating Button -->
+        <a href="collection.html" class="btn-floating btn-large waves effect yellow pulse">
+            <i class="material-icons blue-text">add</i>
+        </a>
+
+        <!-- Flat Button -->
+        <a href="https://projectbitina.com/" class="btn-fla
+        waves-effect waves purple accent-3" target="_blank">SONG LYRICS</a>
+        </a>
+
+        <!-- Submit Button -->
+        <button class="btn waves-effect waves=light deep-green lighten-5 black-text">CLICK TO SEND YOUR COMPLAIN</button>
+            <i class="material-icons right">send</i>
+        </button>
+        <br><br>
+
+        <!-- Large -->
+        <button class="btn waves-effect waves-light blue accent-3 black-text btn-large">SUBSCRIBE</button>
+            <i class="material-icons right"></i>
+        </button>
+
+        <!-- With Icon -->
+        <button class="btn waves-effect waves-light deep-blue lighten-5 black-text btn-large">SEND YOUR IDEA
+            <i class="material-icons left">mail</i>
+        </button>
+
+        <br><br>
+        <!-- Small -->
+        <button class="btn waves-effect waves-light deep-purple lighten-5 deep-purple-text btn-small">SEND MSG TO YOUR FRIENDS
+            <i class="material-icon right">mail</i>
+        </button>
+
+        <!-- Disabled -->
+        <a href="#" class="btn large disabled">Report</a>
+
+        <div style="height: 500px;"></div>
+    
+        <!--Compiled and minified JavaScript-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        </script>
+        </body>
+        </html>
