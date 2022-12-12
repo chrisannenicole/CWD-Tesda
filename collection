@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Collections</title>
+</head>
+
+<body class="card-panel yellow lighten-3">
+    <div class="container">
+        <h1 class="black-text">NICOLE</h1>
+    <!-- Basic -->
+        <h4 class="red-text text-lighten-3, center align">COLLECTION</h4>
+        <ul class="collection">
+            <li class="collection-item">Messenger</li>
+            <li class="collection-item">Instagram</li>
+            <li class="collection-item">Facebook</li>
+            <li class="collection-item">Discord</li>
+            <li class="collection-item">Twitter</li>
+        </ul>
+        <!--Links-->
+        <div class="collection">
+            <div class="red-darken black-text">
+        <h4 class="blue-text text-lighten-3, center align">LINKS</h4>
+            <a href="https://www.messenger.com/" class="collection-item">Messenger</a>
+            <a href="https://www.instagram.com/" class="collection-item">Instagram</a>
+            <a href="https://www.facebook.com/" class="collection-item">Facebook</a>
+            <a href="https://discord.com/" class="collection-item">Discord</a>
+            <a href="https://twitter.com/" class="collection-item">Twitter</a>
+            </div>
+</div>
+</div>
+</body>
+</html>
+    <!--Fixed action btn-->
+<div class="fixed-action-btn toolbar">
+    <a class="btn-floating btn-large black">
+        <i class="material-icons"></i>
+    </a>
+    <ul>
+    <li>
+        <a href="https://www.youtube.com/watch?v=_3OkyfC4gBw&t=35s" class="red">
+        <i class="material-icons">YOUTUBE</i>
+    </a>
+    </li>
+    <li>
+        <a href="https://www.facebook.com/chrisannenicolebarria" class="indigo">
+        <i class=" material-icons">ADMIN FACEBOOK</i>
+    </a>
+    </li>
+    <li>
+        <a href="https://mangabuddy.com/bad-thinking-diary/chapter-31" class="red">
+        <i class="material-icons">UPDATES</i>
+    </a>
+    </li>
+</div>
+</div>
+<!--Videos-->
+<h4 class="lime accent 3, black-text, center align">VIDEOS</h4>
+<div class="col s12 m4">
+<div class="video-container">
+    <iframe width="200" height="400"
+    src="vid2.mp4" 
+    frameborder="0"
+    allow="accelerometer; autoplay;
+    clipboard-wite; encypted-media;
+    gryscope; picture-in-picture"
+    allowfullscreen></iframe>
+</div>
+    <!-- Material Box -->
+            <h5 class="red-text center-align">BAD THINKING DIARY</h5>
+            <section class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s12 m4">
+                            <img src="1img.jpg" alt="" class="responsive-img materialboxed" width="550">
+                        </div>
+                        <div class="col s12 m4">
+                            <img src="2img.jpg" alt="" class="responsive-img materialboxed" width="550">
+                        </div>
+                        <div class="col s12 m4">
+                            <img src="4img.jpg" alt="" class="responsive-img materialboxed" width="550">
+                        </div>
+                    </div>
+                </div>
+            </section>
+    <!-- Slider -->
+            <h5 class="red-text center-align">BTD UPDATES</h5>
+            <section class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s12 m10 offset-m1">
+                            <div class="slider">
+                                <ul class="slides">
+                                    <li>
+                                        <img src="image01.jpg" alt="">
+                                        <div class="caption left-align red-text text-darken-1">
+                                            <h3>CHAPTER 5</h3>
+                                            <h5 class="red-text text-darken-1">BAD THINKING DIARY UPDATES
+                                            </h5>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="image02.jpg" alt="">
+                                        <div class="caption left-align light red-text text-darken-1">
+                                            <h3>CHAPTER 15</h3>
+                                            <h5 class="light red-text text-darken-1">BAD THINKING DIARY UPDATES
+                                            </h5>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="5img.jpg" alt="">
+                                        <div class="caption left-align light red-text text-darken-1">
+                                            <h3>CHAPTER 20</h3>
+                                            <h5 class="light red-text text-darken-1">BAD THINKING DIARY UPDATES
+                                            </h5>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div style="height: 500px;"></div>
+<!--JQueryCDN-->
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+<!--Compiled and miified Javascript-->
+<script src="https:cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    //Fixed action button
+    $('.fixed-action-btn').floatingActionButton({
+        hoverEnabled: false,
+        toolbarEnabled: true
+    });
+    //Fixed action button
+    $('.materialboxed').materialbox({
+        inDuration:1000,
+        outDuration:1000
+    });
+    //Fixed action button
+    $('.slider').slider({
+        inDuration:1000,
+        outDuration:1000
+    });
+});
+
+    
+</script>
+
+</body>
+</html>
+<div></div>
+<!-- 12 Columns -->
+    <div class="row center-align">
+        <div class="row center">
+            <div class="col s1 card-panel blue darken-4 white-text"><h6>1</h6></div>
+            <div class="col s1 card-panel yellow darken-4 white-text"><h6>2</h6></div>
+            <div class="col s1 card-panel purple darken-4 white-text"><h6>3</h6></div>
+            <div class="col s1 card-panel blue darken-4 white-text"><h6>4</h6></div>
+            <div class="col s1 card-panel yellow darken-4 white-text"><h6>5</h6></div>
+            <div class="col s1 card-panel purple darken-4 white-text"><h6>6</h6></div>
+            <div class="col s1 card-panel blue darken-4 white-text"><h6>7</h6></div>
+            <div class="col s1 card-panel green darken-4 white-text"><h6>8</h6></div>
+            <div class="col s1 card-panel red darken-4 white-text"><h6>9</h6></div>
+            <div class="col s1 card-panel indigo darken-4 white-text"><h6>10</h6></div>
+            <div class="col s1 card-panel cyan darken-4 white-text"><h6>11</h6></div>
+            <div class="col s1 card-panel orange darken-4 white-text"><h6>12</h6></div>
+            <div class="col s12 card-panel blue darken-2 white-text"><h5>BAD THINKING DIARY</h5></div>
+            <div class="col s6 card-panel yellow darken-2 white text center-align"><h5>CHARACTER INFO</h5></div>
+            <div class="col s6 card-panel blue darken-2 white text center-align"><h5>MANHWA</h5></div>
+        </div>
+        <div class="row left-align">
+            <div class="col s2 m2 push-m2 4">
+            <img src="kangyuna.jpg" alt="" class="responsive-img">
+            </div>
+        <div class="col s12 m7 push-m3 16 offset-11 blue-text text-darken 5">
+            <h4>Kang Yuna</h4>
+            <p>Yuna is a beautiful with a taller figure ( being significantly taller than Minji ) 
+                and has long black hair with bangs covering her forehead and blueish-gray eyes.
+                She is often seen wearing glasses and wears clothing in dark colours. From the age of 17 to 21, Minji and Yuna have been each other's best friends. Since one day, the relationship has subtly changed. Min-hee's crazy dream about Yuna begins! Their relationship began to become something other than best friends. Unrequited love, excitement, obsession. "'Bad Ideas' are growing in their own minds. Where do their bad ideas settle on a lush college campus?
+            </p>
+        </div>
+        </div>
+<!-- Offset -->  
+    <div class="row">
+            <div class="col s12 card-panel blue darken-2 white-text center-align"><span class="flowtext"><h5>This div is 12 columns wide on all screen sizes</h5></span></div>
+            <div class="col s6 offset-s3 card-panel blue darken-1 white-text center-align"><span class="flow-text">6 columns offset by 3<h6></h6></span></div>
+        </div>
+<!-- Push and pull-->
+    <div class="row">
+        <div class="col s12 card-panel center align blue lighten-2"><span class="flow-text">This div is 7-column wide on pushed tp the tight by 5-columns</span></div>
+        <div class="col s12 card-panel center align blue lighten-2"><span class="flow-text">5-columns wide pulled to the left by 7-columns</span></div>
+    </div>
+<!-- Responsive grid eamples -->
+    <div class="row">
+        <div class="col s12 card-panel white text blue darken-1"><p>s12</p></div>
+        <div class="col s12 m4 12 card-panel white-text blue accent-3"><p>s12 m1</p></div>
+        <div class="col s12 m4 12 card-panel white-text blue ligthen-1"><p>s12 m5</p></div>
+        <div class="col s12 m4 12 card-panel white-text blue accent-3"><p>s12 m4</p></div>
+    </div>
+    <div class="row">
+        <div class="col s12 m6 13 card-panel white-text blue"><p>s12 m5 13</p></div>
+        <div class="col s12 m6 13 card-panel white-text blue"><p>s12 m5 13</p></div>
+        <div class="col s12 m6 13 card-panel white-text blue"><p>s12 m5 13</p></div>
+        <div class="col s12 m6 13 card-panel white-text blue"><p>s12 m5 13</p></div>
+    </div>
+<!-- Grid -->
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col s12 m3 13">
+                <div class="center-align">
+                    <i class="material-icons large material-icons red-text">flash_on</i>
+                    <h5 class="line-text">Speed up development</h5>
+                    <p class="light center black-text">
+                    "To improve speed we must break down the components of speed development. They are flexibility, running form and technique, stride length and stride frequency. Other components that will help are reaction time, acceleration, strength and power. We will focus just on the first four main components of speed."
+                    </p>
+                </div>
+            </div>
+            <div class="col s12 m3 13">
+                <div class="center promo promo-example">
+                    <i class="material-icons large material-icons red-text">group_icon</i>
+                    <h5 class="line-text">User Experience focused</h5>
+                    <p class="light center black-text">
+                    "Having a deep understanding of users, what they need, what they value, their abilities, and also their limitations. It also takes into account the business goals and objectives of the group managing the project."
+                    </p>
+                </div>
+            </div>
+            <div class="col s12 m3 13">
+                <div class="center-align promo promo-example">
+                    <i class="material-icons large material-icons red-text">settings_icon</i>
+                    <h5 class="line-text">Settings</h5>
+                    <p class="light center black-text">
+                    "The time, place, and circumstances in which something occurs or develops. : the time and place of the action of a literary, dramatic, or cinematic work. : the scenery used in a theatrical or film production."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
